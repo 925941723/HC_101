@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HC_101</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="str_newDev_name">新设备</string>
+    <color name="C">#333333</color>
+    <string name="str_setDec_name">修改设备名</string>
+    <string name="str_dialog_title">设置新设备名</string>
+    <string name="str_dialog_pobtn">确定</string>
+    <string name="str_dialog_nebtn">取消</string>
+    
+    <string name="str_ble">不支持BLE</string>
+    <string name="str_ble_disconnect">连接异常</string>
+    <string name="str_ble_reconnect">重新连接</string>
+    <string name="str_ble_scan">扫描设备中...</string>
+    <string name="str_app_exit">再按一次退出程序</string>
+    <string name="str_init_progressDialogTitle">初始化</string>
+    <string name="str_init_DevAddress">正在初始化设备地址，请按下设备的复位键</string>
+    <string name="str_init_DevAddress_success">初始化设备成功！</string>
+    <string name="str_startlearn">请按下面的按键进行红外学习</string>
+    <string name="str_learning">学习中,请拿起你的遥控器进行学习</string>
+    <string name="str_pop_learn">点这里进行学习</string>
+    <string name="str_ER">操作失败！</string>
+    <string name="str_dialog_definBtnName">按键自定义</string>
+    <string name="str_pop_learn_openBtn">学习开关键</string>
+
+    <string name="str_login_local">本地控制</string>
+    <string name="str_login_remote">远程控制</string>
+    <string name="str_code">生成二维码</string>
+    <string name="wifi_sleep_policy_default">wifi不休眠</string>
+    <string name="wifi_sleep_policy">wifi休眠重置</string>
+</resources>

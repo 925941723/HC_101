@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/F:/haitao/studioProject/HC_IR150512V2.0/app/src/main/res/values-zh-rTW/strings.xml -->
+    <eat-comment/>
+    <color name="C">#333333</color>
+    <string name="app_name">HC_101</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="str_ER">操作失敗！</string>
+    <string name="str_app_exit">再按壹次退出程序</string>
+    <string name="str_ble">不支持BLE</string>
+    <string name="str_ble_disconnect">連接異常</string>
+    <string name="str_ble_reconnect">重新連接</string>
+    <string name="str_ble_scan">掃描設備中...</string>
+    <string name="str_code">生成二維碼</string>
+    <string name="str_dialog_definBtnName">按鍵自定義</string>
+    <string name="str_dialog_nebtn">取消</string>
+    <string name="str_dialog_pobtn">確定</string>
+    <string name="str_dialog_title">設置新設備名</string>
+    <string name="str_init_DevAddress">正在初始化設備地址，請按下設備的復位鍵</string>
+    <string name="str_init_DevAddress_success">初始化設備成功！</string>
+    <string name="str_init_progressDialogTitle">初始化</string>
+    <string name="str_learning">學習中,請拿起妳的遙控器進行學習</string>
+    <string name="str_login_local">本地控制</string>
+    <string name="str_login_remote">遠程控制</string>
+    <string name="str_newDev_name">新設備</string>
+    <string name="str_pop_learn">點這裏進行學習</string>
+    <string name="str_pop_learn_openBtn">學習開關鍵</string>
+    <string name="str_setDec_name">修改設備名</string>
+    <string name="str_startlearn">請按下面的按鍵進行紅外學習</string>
+    <string name="wifi_sleep_policy">wifi休眠重置</string>
+    <string name="wifi_sleep_policy_default">wifi不休眠</string>
+</resources>

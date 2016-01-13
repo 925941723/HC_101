@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:background="@drawable/title_bar" >
+
+        <Button
+            android:id="@+id/back_btn"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="15dip"
+            android:background="@drawable/back" />
+
+        <Button
+            android:id="@+id/set_btn"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="15dip"
+            android:background="@drawable/set" />
+
+        <TextView
+            android:id="@+id/tv_devName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="新设备"
+            android:textColor="#ffffff" />
+
+        <ImageView
+            android:id="@+id/image_state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/tv_devName"
+            android:background="@drawable/indicatordark" />
+        <Button 
+            android:id="@+id/btn_help"
+            android:layout_width="25dip"
+            android:layout_height="25dip"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/set_btn"
+            android:layout_marginRight="5dip"
+            android:background="@drawable/help"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_login_local"
+            android:background="@drawable/button_login_selector"
+            android:id="@+id/btn_login"
+            />
+        <TextView
+            android:id="@+id/display"
+            android:layout_width="0dip"
+            android:layout_weight="1"
+            android:layout_height="50dip"
+            android:layout_marginTop="5dip"
+            android:gravity="center"
+            android:text=""
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_code"
+            android:background="@drawable/button_login_selector"
+            android:id="@+id/btn_code"
+            />
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/viewpager"
+        
+        ></android.support.v4.view.ViewPager>
+   
+</LinearLayout>

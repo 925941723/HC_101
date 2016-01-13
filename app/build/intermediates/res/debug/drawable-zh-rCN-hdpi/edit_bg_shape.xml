@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+    
+    <corners android:radius="5dip" />
+    <padding android:left="5dip" />
+    <solid android:color="@android:color/black" />
+	<stroke android:width="2dip" android:color="@android:color/darker_gray" />
+</shape>
+<!-- From: file:/F:/haitao/studioProject/HC_IR150512V2.0/app/src/main/res/drawable-zh-rCN-hdpi/edit_bg_shape.xml -->

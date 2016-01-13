@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/et_address"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_marginBottom="15dip"
+        android:layout_marginTop="15dip"
+        android:background="@android:drawable/editbox_background"
+        android:gravity="center"
+        android:textSize="20sp" />
+
+</LinearLayout><!-- From: file:/F:/haitao/studioProject/HC_IR150512V2.0/app/src/main/res/layout/set_address.xml -->

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg" >
+    
+    <ImageView
+        android:layout_width="154dp"
+        android:layout_height="154dp"
+        android:background="@drawable/button" />
+
+</LinearLayout>
+<!-- From: file:/F:/haitao/studioProject/HC_IR150512V2.0/app/src/main/res/layout/gsd.xml -->

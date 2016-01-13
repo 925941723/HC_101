@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\Users\Administrator\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="F:\haitao\studioProject\HC_IR150512V2.0\app\build\intermediates\pre-dexed\release\support-v4-18.0.0-9632bc07af42759fafddc53b7bc180a5f87c5dc0.jar" />
+    </item>
+    <item
+        jar="F:\haitao\studioProject\HC_IR150512V2.0\app\lib\core.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="bd6b097588487313f7a94914fb89d44238964977">
+        <dex dex="F:\haitao\studioProject\HC_IR150512V2.0\app\build\intermediates\pre-dexed\debug\core-b3a713ddd8151e47ddfa384b4d5be1f0e51ed844.jar" />
+    </item>
+
+</items>
